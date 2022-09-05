@@ -1,20 +1,20 @@
 {
-  "name": "notion-automated-titles",
-  "version": "0.1.0",
-  "bin": {
-    "notion-automated-titles": "bin/notion-automated-titles.js"
-  },
-  "scripts": {
-    "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
-    "cdk": "cdk",
-    "test": "jest"
-  },
-  "devDependencies": {
-    "aws-cdk": "2.40.0",
-    "jest": "^27.5.1"
-  },
-  "dependencies": {
-    "aws-cdk-lib": "2.40.0",
-    "constructs": "^10.0.0"
-  }
+    "name": "notion-automated-titles",
+    "version": "0.1.0",
+    "bin": {
+        "notion-automated-titles": "bin/notion-automated-titles.js"
+    },
+    "scripts": {
+        "build": "echo \"The build step is not required when using JavaScript!\" && exit 0",
+        "cdk": "cdk",
+        "test": "jest"
+    },
+    "devDependencies": {
+        "aws-cdk": "2.40.0",
+        "jest": "^27.5.1"
+    },
+    "dependencies": {
+        "aws-cdk-lib": "2.40.0",
+        "constructs": "^10.0.0"
+    }
 }
