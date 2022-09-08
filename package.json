@@ -11,9 +11,11 @@
     },
     "devDependencies": {
         "aws-cdk": "2.40.0",
+        "esbuild": "^0.15.7",
         "jest": "^27.5.1"
     },
     "dependencies": {
+        "@notionhq/client": "^2.2.0",
         "aws-cdk-lib": "2.40.0",
         "constructs": "^10.0.0"
     }
